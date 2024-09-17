@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 define( 'ECGF_DIR', __DIR__ );
 define( 'ECGF_PATH', __FILE__ );
-define( 'ECGF_URL', plugins_url( null, __FILE__ ) );
+define( 'ECGF_URL', plugins_url( '', __FILE__ ) );
 define( 'ECGF_CONFIG_DIR', __DIR__ . '/config' );
 define( 'ECGF_DIR_TEXT_DOMAIN', 'events-calendar-gforms-registration' );
 
