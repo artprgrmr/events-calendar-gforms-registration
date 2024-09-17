@@ -3,8 +3,8 @@
  * Plugin Name: Events Calendar GForms Registration
  * Plugin URI:  https://github.com/ForwardJumpMarketingLLC/events-calendar-gforms-registration
  * Description: Use Gravity Forms to handle registration for The Events Calendar events.
- * Version:     0.2.0
- * Author:      ForwardJump
+ * Version:     0.2.1
+ * Author:      ForwardJump (updated by artprgrmr)
  * Author URI:  https://forwardjump.com
  *
  * License:     GPLv2 or later
@@ -13,7 +13,7 @@
  * Text Domain: events-calendar-gforms-registration
  * Domain Path: /languages
  *
- * Requires PHP: 7.0
+ * Requires PHP: 8.x
  *
  * GitHub Plugin URI: https://github.com/ForwardJumpMarketingLLC/events-calendar-gforms-registration
  *
@@ -44,7 +44,7 @@ function init() {
 	if (
 		! class_exists( 'Tribe__Events__Main' ) ||
 		! class_exists( 'GFForms' ) ||
-		version_compare( PHP_VERSION, '7.0.0', '<' )
+		version_compare( PHP_VERSION, '8.0.0', '<' )
 	) {
 
 		add_action( 'admin_notices', __NAMESPACE__ . '\\activation_error_notice' );
@@ -106,11 +106,11 @@ function activation_error_notice() {
 		<?php
 	}
 
-	if ( version_compare( PHP_VERSION, '7.0.0', '<' ) ) {
+	if ( version_compare( PHP_VERSION, '8.0.0', '<' ) ) {
 		?>
 		<div class="notice notice-error is-dismissible">
 			<p>Error activating
-				<b><?php echo esc_html( isset( $plugin_data['Name'] ) ? $plugin_data['Name'] : 'plugin' ); ?></b>. This plugin requires a minimum PHP version of 7.0.0.</p>
+				<b><?php echo esc_html( isset( $plugin_data['Name'] ) ? $plugin_data['Name'] : 'plugin' ); ?></b>. This plugin requires a minimum PHP version of 8.0.0.</p>
 		</div>
 		<?php
 	}
