@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Events Calendar GForms Registration
  * Plugin URI:  https://github.com/ForwardJumpMarketingLLC/events-calendar-gforms-registration
- * Description: Use Gravity Forms to handle registration for The Events Calendar events.
+ * Description: Use Gravity Forms to handle registration for The Events Calendar events. Updated version by artprgrmr.
  * Version:     0.2.1
  * Author:      ForwardJump (updated by artprgrmr)
  * Author URI:  https://forwardjump.com
