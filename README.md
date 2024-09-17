@@ -3,7 +3,7 @@
 This plugin allows you to use Gravity Forms to create advanced and sophisticated registration forms for The Events Calendar events. Forms can be reused for multiple events without conflict.
 
 ## Requirements
-- PHP 7.0+
+- PHP 8.x
 - [Gravity Forms](http://www.gravityforms.com/)
 - [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/)
 
