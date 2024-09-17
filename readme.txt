@@ -1,9 +1,9 @@
 === Events Calendar GForms Registration ===
 Contributors: forwardjump, nooozeguy
 Tags: the events calendar, events calendar, gravity forms, event registration, event register
-Requires at least: 4.7
+Requires at least: 6.x
 Tested up to: 4.8.1
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ This plugin allows you to use Gravity Forms to create advanced and sophisticated
 
 == Requirements ==
 
-* PHP 7.0+
+* PHP 8.x
 * [Gravity Forms](http://www.gravityforms.com/)
 * [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/)
 
