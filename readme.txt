@@ -2,12 +2,12 @@
 Contributors: forwardjump, nooozeguy
 Tags: the events calendar, events calendar, gravity forms, event registration, event register
 Requires at least: 6.x
-Tested up to: 4.8.1
+Tested up to: 6.6.1
 Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Use Gravity Forms to handle registration for The Events Calendar events.
+Use Gravity Forms to handle registration for The Events Calendar events. Updated version by artprgrmr.
 
 == Description ==
 
