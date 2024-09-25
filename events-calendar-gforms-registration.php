@@ -5,7 +5,7 @@
  * Description: Use Gravity Forms to handle registration for The Events Calendar events. Updated version by artprgrmr.
  * Version:     0.2.1
  * Author:      ForwardJump (updated by artprgrmr)
- * Author URI:  https://forwardjump.com
+ * Author URI:  https://github.com/artprgrmr/events-calendar-gforms-registration
  *
  * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
